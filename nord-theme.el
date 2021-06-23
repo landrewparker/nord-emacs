@@ -298,7 +298,7 @@
     `(term-color-magenta ((,class (:foreground ,nord15 :background ,nord15))))
     `(tool-bar ((,class (:foreground ,nord4 :background ,nord3))))
     `(tooltip ((,class (:foreground ,nord0 :background ,nord4))))
-    `(trailing-whitespace ((,class (:foreground ,nord3))))
+    `(trailing-whitespace ((,class (:background ,nord15))))
     `(tty-menu-disabled-face ((,class (:foreground ,nord1))))
     `(tty-menu-enabled-face ((,class (:background ,nord2 foreground ,nord4))))
     `(tty-menu-selected-face ((,class (:foreground ,nord8 :underline t))))
