@@ -711,7 +711,13 @@
     `(ivy-remote ((,class (:foreground ,nord14))))
 
     ;; > perspective
-    `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))))
+    `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))
+
+    ;; tab-bar
+    '(tab-bar ((t (:inherit mode-line-inactive))))
+    '(tab-bar-tab ((t (:inherit mode-line-highlight))))
+    '(tab-bar-tab-inactive ((t (:inherit tab-bar))))
+    '(tab-line ((t nil)))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
